@@ -15,9 +15,19 @@ buy from each other, for example.
 
 ## Documentation
 
-The `example.conf` file gives an example configuration file, and the program
-responds to `secret-santa.py --help`
+The basic invocation is something like:
+
+      secret-santa.py email your-conf.conf
+
+Where the `email` keyword argument says you want to send people their 
+assignments via email, and the `your-conf.conf` is a configuration file
+with the names of the participants in it. Other keyword arguments are
+`print` and `email_check`.
+
+A documented example configuration file (`example.conf`) is provided.
+
+The program also responds to `secret-santa.py --help`
 
 ## License
 
-See the [`LICENSE`](LICENSE) file
+See the `LICENSE` file
